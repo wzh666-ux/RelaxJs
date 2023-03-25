@@ -1,0 +1,32 @@
+{
+  "name": "relaxjs",
+  "version": "1.0.0",
+  "description": "一个js框架",
+  "private": "true",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "dev": "",
+    "build": "rollup --config rollup.config.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wzh666-ux/RelaxJs.git"
+  },
+  "author": "wzhhhh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wzh666-ux/RelaxJs/issues"
+  },
+  "homepage": "https://github.com/wzh666-ux/RelaxJs#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/core": "^7.21.3",
+    "@babel/preset-env": "^7.20.2",
+    "@babel/preset-typescript": "^7.21.0",
+    "@rollup/plugin-babel": "^6.0.3",
+    "@rollup/plugin-node-resolve": "^15.0.1",
+    "rollup": "^3.20.2"
+  }
+}
