@@ -1,6 +1,4 @@
-// @ts-ignore
-import core from "./core/index.ts"
-// @ts-ignore
+import core from "./core/index"
 import {RelaxOption} from "./types"
 
 

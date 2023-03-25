@@ -1,10 +1,31 @@
 {
   "compilerOptions": {
-    "module": "commonjs",
-    "target": "es5",
-    "sourceMap": true
+   // ts编译的目标文件，我这里编译成es6， 然后交给babel
+    "target": "ES2017",
+    // 使用最新的语法 
+    "module": "esnext",
+    // 库使用dom， dom可迭代
+    "lib": ["ESNext", "DOM", "DOM.Iterable"],
+    // 模块解析策略是node
+    "moduleResolution": "node",
+    // 开启es与其他模块的交互
+    "esModuleInterop": true,
+    // 开启严格模式
+    "strict": true,
+    //  开启声明文件的输出
+    "declaration": true,
+    // 允许导入json模块
+    "resolveJsonModule": true,
+    // 启用修饰器功能
+    "experimentalDecorators": true,
+    // 跳过库的检查
+    "skipLibCheck": true,
+    "noUnusedLocals": true,
+    // 开启声明文件输出目录
+    "declarationDir": "./dist/types/"
   },
-  "exclude": [
-    "node_modules"
+  // 只编译src目录下面的文件
+  "include": [
+    "./src"
   ]
 }

@@ -1,5 +1,4 @@
-// @ts-ignore
-import {RelaxOption} from "./Relax.d.ts";
+import {RelaxOption} from "./Relax.d";
 
 export {
     RelaxOption
